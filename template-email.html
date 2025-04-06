@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template e-mail</title>
+</head>
+<body style="margin: 0; padding: 0;">
+    <!-- Tabela container com fundo cinza -->
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #f0f0f0;">
+        <tr>
+            <td align="center" style="padding: 30px 10px;">
+                <!-- Tabela principal do conteúdo -->
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 600px; background-color: #639FFF; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; text-align: center;">
+                    <!-- Linha com imagens nas extremidades -->
+                    <tr>
+                        <td width="50%" style="padding: 20px 10px; text-align: left;">
+                            <img src="https://upload.wikimedia.org/wikipedia/pt/2/22/%C3%8DbisSC.png" alt="Logo Esquerda" style="width: 80px; height: auto;">
+                        </td>
+                        <td width="50%" style="padding: 20px 10px; text-align: right;">
+                            <img src="https://upload.wikimedia.org/wikipedia/pt/2/22/%C3%8DbisSC.png" alt="Logo Direita" style="width: 80px; height: auto;">
+                        </td>
+                    </tr>
+                    <!-- Restante do conteúdo -->
+                    <tr>
+                        <td colspan="2" style="padding: 20px 10px 0 10px; border-radius: 10px 10px 0 0; background-color: #1F64FF;  color: #ffff;">
+                            <h1 style="margin-top: 0;">Olá, [nome]!</h1>
+                            <p>Você solicitou a redefinição de sua senha. </p>
+                            <p>Para continuar, clique no link abaixo:</p>
+                            <table border="0" cellspacing="0" cellpadding="0" style="margin: 30px auto;">
+                                <tr>
+                                    <td>
+                                        <img src="https://upload.wikimedia.org/wikipedia/pt/2/22/%C3%8DbisSC.png" alt="" style="width: 100px; margin-bottom: 20px;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color: #639FFF; padding: 12px 24px; border-radius: 5px;">
+                                        <a href="172.20.10.112:5000/reset-senha?token=82783b6c-5c37-4606-869c-2c58849075d8" 
+                                        style="text-decoration: none; font-weight: bold; color: #ffff;">
+                                            Redefinir senha
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="background-color: #1F64FF; color: #ffff; padding: 5px 10px 20px 10px;">
+                            <p>Este link é válido por 20 minutos.</p>
+                            <p>Se você não solicitou esta alteração, ignore este email.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="padding: 20px; background-color: #639FFF; color: #ffff; font-weight: bolder; border-radius: 0 0 10px 10px;">
+                            <p>Atenciosamente, equipe de T. I.</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
